@@ -1,0 +1,314 @@
+body{
+	/*width: 1000px;*/
+	margin: 0 auto;
+
+	width: 800px;
+	background-color: #FFCC99;
+}
+
+
+li.line {
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+
+}
+
+a:link#inpage{
+	background-color:#FFE5CC;
+	padding:3px;
+}
+
+/*darkorange*/
+a:link, a:visited{
+	color: #CC6600; 
+	text-decoration: none;
+	font-size:30px;
+}
+
+a:hover{
+	color:white;
+	background-color: #CC6600;
+	/*padding:3px;*/
+}
+
+a:hover.contact{
+	color:white;
+}
+
+
+a:link.white{
+	color:white;
+	text-decoration: none;
+}
+a:visited.white{
+	color:white;
+	text-decoration: none;
+}
+
+
+/*
+animaino for the header and footer*/
+@keyframes anime {
+ 	0%{background-color: transparent; color:#CC6600}
+	50%{background-color: transparent; color:#CC6600}
+	100%{background-color: #CC6600; color:white;}
+}
+
+
+/*animation for the middle content*/
+@keyframes animeB{
+	0%{background-color:#CC6600;}
+	50%{background-color:#CC6600;}
+	100%{background-color:transparent;}
+}
+/*a:visited{
+	color: orange;
+}*/
+
+#logo{
+	margin:10px;
+	width:50px;
+
+}
+
+#fall{
+	width:98%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#nav{
+	text-align: center;
+/*	background-image: url("../images/logo2.png");
+	background-size: 15%;
+	background-repeat: no-repeat;*/
+
+	margin:1%;
+	padding:10px;
+/*	background-color: orange ;*/
+
+}
+
+#bar{
+	animation-name: animeB;
+	animation-duration: 6s;
+}
+
+#title{
+
+	text-align: center;
+	margin:1%;
+	padding:1px;
+	background-color: #CC6600; /*Darkorange*/
+	color: white;
+	font-size:20px;
+	font-family: 'Poppins', sans-serif;
+
+	animation-name: anime;
+	animation-duration: 3s;
+}
+
+#footer{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color:white;
+	margin:1%;
+	padding:35px;
+	background-color: #CC6600;
+
+	animation-name: anime;
+	animation-duration: 3s;
+/*	width:100%;
+	margin:1%;
+	padding:1%;*/
+}
+
+/*#project, .projects{
+	background-color: orange;
+	width:31.3%;
+	float:left;
+	margin:1%;
+}
+*/
+.img1{
+	max-width:98%;
+}
+
+/*#content{
+	background-image: url(../images/Hanfu3.jpeg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-width: 100%;
+	overflow:auto;
+}*/
+
+/*resume style*/
+#resumePaper{
+	margin: 50px auto;
+	background-image: url(../images/paper.jpeg);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width:80%;
+}
+.ZiPic{
+	/*width:40%;
+	float:left;
+	padding-right:20px;
+	margin:10px;
+	background-color: #FFE5CC;*/
+	width:230px;
+	height:230px;
+	float: left;
+	margin-right:10px;
+	padding: 10px;
+}
+#bio{
+	width:70%;
+	margin: 50px auto;
+	/*background-color: #FFE5CC;*/
+	padding:30px;
+	height:240px;
+	text-align: left;
+}
+p.intro:first-letter{
+	font-size:200%;
+	font-weight: bold;
+}
+p.intro{
+	font-size:130%;
+}
+
+/*project style*/
+.portfolio{
+	width:100%;
+	height:230px;
+	margin:20px auto;
+	background-color: #FFE5CC;
+	padding:5px;
+	padding-left:5px;
+}
+.projectPicture{
+	width:200px;
+	height:200px;
+	float: left;
+	margin-right:20px;
+	padding:15px;
+}
+
+/*Interest display
+*/
+
+.wrapper{
+	width:800;
+	/*background-color: white;*/
+	/*height: 600px;*/
+	margin: 0px auto;
+}
+.interest{
+	width:360px;
+	height:430px;
+	margin:10px 10px;
+	padding:0px 10px;
+	background-color: #FFE5CC;
+	float:left;
+	display: block;
+}
+.interestPic{
+	width:340px;
+	display: block;
+	margin: 20px auto;
+}
+p.interestDis{
+	text-align: center;
+	size:30%;
+}
+
+/*contact*/
+a.contact{
+	color: #CC6600;
+	text-align: center;
+}
+.center{
+	text-align: center;
+	margin:0px;
+}
+.iconSet{
+	width:520px;
+	margin:10px auto;
+	margin-bottom:30px;
+}
+.icon{
+	width:70px;
+	padding:30px;
+	display:block;
+	float:left;
+}
+#email{
+	width:300px;
+	margin: 0px auto;
+	text-align: center;
+}
+.weqr{
+	width:400px;
+	display:block;
+	margin:0px auto;
+}
+
+fieldset{
+	margin: 0px auto;
+	width:350px;
+	border: 1px solid #994C00;
+	border-radius: 10px;
+	padding:20px;
+/*	text-align: right;*/
+	text-transform: uppercase;
+}
+legend{
+	background-color: #CC6600;
+	border:1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
+	color:white;
+}
+textarea{
+	width:300px;
+	height:150px;
+	background-color: #FFE5CC;
+	font-size: 150%;
+}
+input{
+	background-color: #FFE5CC;
+	width:300px;
+	font-size:150%;
+}
+
+
+.myButton{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.myButton:hover{
+	background-color: yellow;
+}
+
+.myButton:active{
+	background-color: blue;
+}

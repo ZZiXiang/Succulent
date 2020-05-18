@@ -1,0 +1,13 @@
+body{
+	/*width: 1000px;*/
+	margin: 0 auto;
+	margin-top:40px;
+
+	width: 900px;
+	background-color: #FFCC99;
+}
+
+pre{
+	font: serif;
+	font-size: 20px;
+}
