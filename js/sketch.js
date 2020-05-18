@@ -8,7 +8,7 @@ function windowResized(){
 }
   
 function setup() {
-  canvas = createCanvas(windowWidth, 2500);
+  canvas = createCanvas(windowWidth, 1500);
   canvas.position(0,0);
   canvas.style('z-index','-1'); //sit in the back
 }
@@ -20,7 +20,7 @@ function draw() {
 	circle(xpo, ypo, random(100));
 
 	for(p=0; p<100; p+=100){
-		circle(random(windowWidth), random(2500), random(70));
+		circle(random(windowWidth), random(1500), random(70));
 	}
 
   // if(mouseIsPressed){
